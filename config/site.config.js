@@ -7,14 +7,14 @@ module.exports = {
   // Make sure this is exactly the same as the email address you use to sign into your Microsoft account.
   // You can also put this in your worker's environment variable if you worry about
   // your email being exposed in public.
-  userPrincipalName: process.env.USER_PRINCIPLE_NAME || 'e5_onedrive@lyctest123.onmicrosoft.com',
+  userPrincipalName: process.env.USER_PRINCIPLE_NAME || 'MeganB@4ctnl2.onmicrosoft.com',
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
   icon: '/icons/128.png',
 
   // The name of your website. Present alongside your icon.
-  title: "lyc8503's OneDrive",
+  title: "Sadia's Onedrive",
 
   // The folder that you are to share publicly with onedrive-cf-index-ng. Use '/' if you want to share your root folder.
   baseDirectory: '/',
@@ -35,7 +35,7 @@ module.exports = {
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
-    'Powered by <a href="https://github.com/lyc8503/onedrive-cf-index-ng" target="_blank" rel="noopener noreferrer">onedrive-cf-index-ng</a>. Made with ❤ by lyc8503.',
+    'Powered by <a href="https://t.me/bangladesh_Hoarding" target="_blank" rel="noopener noreferrer">onedrive-cf-index-ng</a>. Made with ❤ by Sadia.',
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
@@ -43,15 +43,15 @@ module.exports = {
   protectedRoutes: ['/Private', '/Demo/😎Another Private Folder Password 123'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
-  email: 'mailto:me@lyc8503.site',
+  email: 'mailto:me@sadiasultana.tech',
 
   // [OPTIONAL] This is an array of names and links for setting your social information and links.
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
   // you provide. See the documentation for details.
   links: [
     {
-      name: 'GitHub',
-      link: 'https://github.com/lyc8503',
+      name: 'Sadia',
+      link: 'https://facebook.com',
     },
   ],
 
