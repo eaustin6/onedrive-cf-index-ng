@@ -81,7 +81,7 @@ const DownloadButtonGroup = () => {
         />
         <DownloadButton
           onClickCallback={() => {
-            clipboard.copy(`https://proxy.gookie.dev/api/download?url=${getBaseUrl()}/api/raw?path=${asPath}${hashedToken ? `&odpt=${hashedToken}` : ''}`)
+            clipboard.copy(`https://speedy.tiararose.workers.dev/api/download?url=${getBaseUrl()}/api/raw?path=${asPath}${hashedToken ? `&odpt=${hashedToken}` : ''}`)
             toast.success('Copied direct link to clipboard.')
           }}
           btnColor="pink"
