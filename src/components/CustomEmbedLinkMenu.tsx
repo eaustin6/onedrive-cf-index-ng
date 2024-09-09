@@ -102,21 +102,21 @@ export default function CustomEmbedLinkMenu({
 
                 <LinkContainer
                   title={'Default'}
-                  value={`${getBaseUrl()}/api/raw?path=${readablePath}${hashedToken ? `&odpt=${hashedToken}` : ''}`}
+                  value={`https://proxy.gookie.dev/api/download?url=${getBaseUrl()}/api/raw?path=${readablePath}${hashedToken ? `&odpt=${hashedToken}` : ''}`}
                 />
                 <LinkContainer
                   title={'URL encoded'}
-                  value={`${getBaseUrl()}/api/raw?path=${path}${hashedToken ? `&odpt=${hashedToken}` : ''}`}
+                  value={`https://proxy.gookie.dev/api/download?url=${getBaseUrl()}/api/raw?path=${path}${hashedToken ? `&odpt=${hashedToken}` : ''}`}
                 />
                 <LinkContainer
                   title={'Customised'}
-                  value={`${getBaseUrl()}/api/name/${name}?path=${readablePath}${
+                  value={`https://proxy.gookie.dev/api/download?url=${getBaseUrl()}/api/name/${name}?path=${readablePath}${
                     hashedToken ? `&odpt=${hashedToken}` : ''
                   }`}
                 />
                 <LinkContainer
                   title={'Customised and encoded'}
-                  value={`${getBaseUrl()}/api/name/${name}?path=${path}${hashedToken ? `&odpt=${hashedToken}` : ''}`}
+                  value={`https://proxy.gookie.dev/api/download?url=${getBaseUrl()}/api/name/${name}?path=${path}${hashedToken ? `&odpt=${hashedToken}` : ''}`}
                 />
               </div>
             </div>
